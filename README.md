@@ -73,4 +73,4 @@ The performance has been measured on a machine that has the following characteri
 In addition, performance is affected by the number of users using the machine.
 
 ## Contact
-For questions about code, please contact @Theangelkk, @pasqualedetrino or @GennaroIannuzzo
+For questions about code, please contact [Theangelkk](https://github.com/Theangelkk), [pasqualedetrino](https://github.com/pasqualedetrino) or [GennaroIannuzzo](https://github.com/GennaroIannuzzo).
