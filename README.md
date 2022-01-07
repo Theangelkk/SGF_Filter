@@ -71,3 +71,6 @@ The performance has been measured on a machine that has the following characteri
 * **HDD** 500 GB SATA
 
 In addition, performance is affected by the number of users using the machine.
+
+## Contact
+For questions about code, please contact @Theangelkk, @pasqualedetrino or @GennaroIannuzzo
