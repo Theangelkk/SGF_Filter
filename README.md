@@ -1,4 +1,4 @@
-# SAVITZKY-GOLAY FILTER
+# Savitzky-Golay Filter
 
 This is a simple C++ parallel implementation about Savitzky-Golay Filter. Our work is based on these papers:
 
@@ -13,9 +13,11 @@ To compile the code we used the NVCC compiler ([Here the documentation](https://
 **Here are some results plotted with MATLAB and execution times:**
 
 An image of the signal after using the filter. The blue signal is the original one while the green is the filtered one
+
 ![signalExample](https://user-images.githubusercontent.com/47244184/148555280-f096ae4e-8c88-4633-9dea-5d84f5ab2440.jpg)
 
 Instead here we have some run times on a file of about 400.000 samples
+
 ![Execution_time](https://user-images.githubusercontent.com/47244184/148555298-f0c1f321-224a-480e-ba8c-7f8a3ba7f927.jpg)
 
 ## Installation and Execution
@@ -45,8 +47,7 @@ There are some constraints to be respected for execution:
 
 ## Evaluation
 
-Below are some evaluations of signals of different sizes:
-
+Below are some evaluations of signals of different sizes using the following input configuration:
 ```
 ML = -5
 MR = 5
