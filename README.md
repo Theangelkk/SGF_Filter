@@ -70,7 +70,25 @@ The performance has been measured on a machine that has the following characteri
 * **GPU** Nvidia Quadro K5000
 * **HDD** 500 GB SATA
 
-In addition, performance is affected by the number of users using the machine.
+The times shown consider the data transfers from the host to the device and vicersa and the allocation of the various data structures. In addition, performance is affected by the number of users using the machine.
+
+The following shows the time of the main parts of the code. Allocation and transfer times are not considered.
+
+|  | QR Factorization | Inverse R | Pseudoinverse A | Compute M | Compute Y | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| 34 values | 0.11 ms | 0.30 ms | 0.12 ms | 0.03 ms | 0.11 ms | 0.68 ms |
+| 4.001 values | 0.11 ms | 0.32 ms | 0.12 ms | 0.03 ms | 0.12 ms | 0.69 ms |
+| 46.064 values | 0.11 ms | 0.31 ms | 0.13 ms | 0.05 ms | 0.20 ms | 0.78 ms |
+| 73.114 values | 0.11 ms | 0.30 ms | 0.11 ms | 0.07 ms | 0.26 ms | 0.84 ms |
+| 399.150 values | 0.11 ms | 0.31 ms | 0.11 ms | 0.28 ms | 0.92 ms | 1.73 ms |
+
+From the table it is easy to notice that the times that change are those for the calculation of the **matrix M** and the **final values Y**.
 
 ## Contact
-For questions about code, please contact [Theangelkk](https://github.com/Theangelkk), [pasqualedetrino](https://github.com/pasqualedetrino) or [GennaroIannuzzo](https://github.com/GennaroIannuzzo).
+For any questions about code, please contact us.
+
+### Github Accounts
+[Theangelkk](https://github.com/Theangelkk), [pasqualedetrino](https://github.com/pasqualedetrino) or [GennaroIannuzzo](https://github.com/GennaroIannuzzo).
+
+### Linkedin Accounts
+[Theangelkk](https://www.linkedin.com/in/angelo-casolaro/), [pasuqaledetrino](https://www.linkedin.com/in/pasquale-de-trino-65467216b/) or [GennaroIannuzzo](https://www.linkedin.com/in/gennaro-iannuzzo-93ab1a217/).
