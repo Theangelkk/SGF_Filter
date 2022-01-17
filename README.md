@@ -84,6 +84,13 @@ The following shows the time of the main parts of the code. Allocation and trans
 
 From the table it is easy to notice that the times that change are those for the calculation of the **matrix M** and the **final values Y**.
 
+## Bibliography
+Below are the links that helped us in the development of the code:
+
+* **cuBLAS**: https://docs.nvidia.com/cuda/cublas/index.html
+* **cuSOLVER**: https://docs.nvidia.com/cuda/cusolver/index.html
+* **SGFilter MATLAB Implementation**: https://it.mathworks.com/matlabcentral/answers/335433-how-to-implement-savitzky-golay-filter-without-using-inbuilt-functions#answer_322261
+
 ## Contact
 For any questions about code, please contact us.
 
