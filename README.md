@@ -1,4 +1,4 @@
-# Savitzky-Golay Filter
+# Savitzky-Golay Filter Parallel CUDA
 
 This is a simple C++ parallel implementation about Savitzky-Golay Filter. Our work is based on these papers:
 
